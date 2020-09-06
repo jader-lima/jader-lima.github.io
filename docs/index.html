@@ -23,7 +23,7 @@
 
 		$.ajax({
 			type: "GET",
-			url: "data/normal.csv",
+			url: "./data/normal.csv",
 			success: function (data) {
 				$('body').append(arrayToTable(Papa.parse(data).data));
 			}
