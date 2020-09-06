@@ -1,0 +1,15 @@
+@font-face {
+	font-family: 'mario-3';
+	src: url('../fonts/MARIO_Font_v3_Solid.eot'); 
+	src: url('../fonts/MARIO_Font_v3_Solid.otf') format('opentype');
+	font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'mariomaker';
+	src: url('../fonts/MARIOMAKER.eot');
+	src: url('../fonts/MARIOMAKER.otf') format('opentype');
+	font-weight: normal;
+    font-style: normal;
+}
