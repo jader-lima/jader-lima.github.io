@@ -4,13 +4,43 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	
+	
+	<script src="./js/papaparse.min.js"></script>
+	<script src="./js/jquery-3.5.1.js"></script>
+	<script>
+		function arrayToTable(tableData) {
+			var table = $('<table></table>');
+			$(tableData).each(function (i, rowData) {
+				var row = $('<tr></tr>');
+				$(rowData).each(function (j, cellData) {
+					row.append($('<td>'+cellData+'</td>'));
+				});
+				table.append(row);
+			});
+			return table;
+		}
+
+		$.ajax({
+			type: "GET",
+			url: "normal.csv",
+			success: function (data) {
+				$('body').append(arrayToTable(Papa.parse(data).data));
+			}
+		});
+	</script>
+
+	
 </head>
 
 <body>
+
 <p><font face='mario-3' color="red">Sobre ......</p>
 <p><font face='mariomaker' color="green">Sobre ......</p>
 
 <h2 style="font-family:mario-3 ;color:red">Sobreeee</h2>
+
+<!--<img class="img-responsive" src="img/Greece-Best-Beaches-Hero.jpg"/>-->
 
 </body>
 </html>
