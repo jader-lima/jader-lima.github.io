@@ -9,6 +9,7 @@
 	<script src="./js/papaparse.min.js"></script>
 	<script src="./js/jquery-3.5.1.js"></script>
 	<script>
+	
 		function arrayToTable(tableData) {
 			var table = $('<table></table>');
 			$(tableData).each(function (i, rowData) {
@@ -23,7 +24,7 @@
 
 		$.ajax({
 			type: "GET",
-			url: "./data/normal.csv",
+			url: "./data/normal.csv",			
 			success: function (data) {
 				$('body').append(arrayToTable(Papa.parse(data).data));
 			}
