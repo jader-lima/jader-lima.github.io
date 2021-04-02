@@ -1,0 +1,309 @@
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+   
+    color:#ffffff;
+}
+
+
+
+#custom-bootstrap-menu.navbar-default {
+
+    font-size: 14px;
+   
+    border-bottom-width: 1.5px;
+    background-color:#6d28d4;
+    border-color: #332179;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+   
+    color:#ffffff;
+    background-color:#6d28d4;
+   
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    
+    color:#ffffff;
+    background-color: rgba(248, 248, 248, 0.04);
+    
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(231, 231, 231, 0.03);
+   
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #474747;
+}
+
+
+
+.container1 {
+    width: 100%;
+    height: 100vh;  
+    top: 0;
+    bottom: 0;
+    background-color: #ffffff;
+}
+.container2 {
+    width: 100%;
+    height: 100vh;  
+    top: 0;
+    bottom: 0;
+    background-color: #f1ebfa;    
+}
+.container3 {
+    width: 100%;    
+    top: 0;
+    bottom: 0;
+    background-color: #f1ebfa;    
+}
+
+
+
+.titulo2{
+  font-size: 25px;
+  text-align: center;
+  color:#6d28d4;
+  font-weight: bold;
+  padding-top:100px; 
+}
+.texto2{
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  color:#333111;
+  padding-top: 0px;
+}
+.texto3{
+  font-size: 20px;
+  text-align: center;
+  font-weight: normal;
+  color:#b0abb8;
+  padding-top: 0px;
+}
+
+
+/*formacao*/
+
+.titulof{
+  font-size: 25px;
+  text-align: center;
+  color:#6d28d4;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top:20px;
+}
+
+.titulo2f{
+  font-size: 25px;
+  text-align: left;
+  color:#333111;
+  font-weight: bold;
+  
+}
+.texto2f{
+  font-size: 35px;
+  text-align: left;
+  font-weight: bold;
+  color:#333111;
+  padding-top: 0px;
+}
+.texto3f{
+  font-size: 15px;
+  text-align: left;
+  font-weight: normal;
+  color:#b0abb8;
+  padding-top: 0px;
+}
+
+
+/*carroseuls*/
+/*fim carro*/
+
+/*card ?*/
+/*
+.row-height {
+  display: flex;
+}
+
+.pr0 {
+  padding-right: 0;
+}
+
+.col-custom {
+ 
+}
+
+.img-box {
+  display: inline-flex;
+  width: 100%;
+  height: 100%;
+}
+
+.img-box img {
+  object-fit: cover
+}
+*/
+
+/*
+html{
+       height: 100%;
+       margin: 0px;
+   }
+
+
+body {
+  height: 100%;
+  margin: 0px;
+  position:relative;
+  font-family:Raleway,sans serif;
+  color:#fdfdfd;
+      }
+
+.container {
+  height:100%;
+}
+
+.jumbotron {
+  position:relative;
+  background-color:#a1e4f2;
+  width:100%;
+  height:100%;
+  min-height:100%;
+  margin: 0px;
+  top:15%;
+
+
+  }
+
+
+#home {
+  background-color:#a1e4f2;
+  background-image: url(Uluwatu.jpg);
+  height:100%;
+}
+
+#about {
+  background-color:#FFAF78;
+  position:relative;
+  height:100%;
+  min-height:100%;
+  border:0px;
+  margin:0px;
+  font-size: 18px;
+
+}
+
+#projects {
+  background-color:#FFA0A9 ;
+  position:relative;
+  min-height:100%;
+  height:100%;
+  border:0px;
+  margin:0px;
+}
+
+#testimonials {
+  background-color:#a3d285;
+}
+
+#contact {
+  background-color:#fdd04b;
+  position:relative;
+  height:100%;
+  min-height:100%;
+  border:0px;
+  margin:0px;
+  font-size: 18px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.thumbnail {
+  background-color:#fdfdfd;
+}
+
+.thumbnail:hover {
+  background-color:grey;
+}
+
+#aboutheader {
+  padding-top: 5%;
+  padding-bottom:5%;
+}
+
+#projectsheader {
+  padding-top: 5%;
+  padding-bottom:5%;
+}
+
+#contactsheader {
+  padding-top: 5%;
+  padding-bottom:5%;
+}
+
+#footerhome {
+  position:absolute;
+  bottom:2%;
+  right:50%;
+  left:50%;
+
+  }
+
+#footerabout {
+    position:absolute;
+    bottom:2%;
+    right:50%;
+    left:50%;
+
+    }
+
+#footerprojects {
+      position:absolute;
+      bottom:2%;
+      right:50%;
+      left:50%;
+
+      }
+
+#homeicons {
+  position:relative;;
+  padding:0px;
+}
+
+#arrow {
+  font-size: 40px;
+  text-align: center;
+  padding:0px;
+
+}
+
+.arrowwhite {
+  color:#fdfdfd;
+}
+
+.iconwhite {
+  color:#fdfdfd;
+}
+
+#contacticons {
+  text-align: center;
+  margin:auto;
+}
+*/
